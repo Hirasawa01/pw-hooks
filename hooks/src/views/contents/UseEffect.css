@@ -1,0 +1,45 @@
+.campo {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+}
+
+.botao {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 7px;
+    background-color: #13273e;
+    border-width: 1px;
+    border-color: gray;
+    width: 80%;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.mensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+#Aprovado {
+    background-color: lightgreen;
+}
+
+#Reprovado {
+    background-color: tomato;
+}
